@@ -1,0 +1,11 @@
+# Copy to terraform.tfvars and fill in, or set PANOS_HOSTNAME / PANOS_USERNAME /
+# PANOS_PASSWORD env vars instead and omit credentials from this file entirely.
+
+panos_hostname = "192.168.1.1"
+panos_username = "admin"
+panos_password = "changeme"
+
+# Optional overrides:
+# vsys                       = "vsys1"
+# address_group_name         = "demo-web-servers"
+# panos_skip_verify_certificate = true
